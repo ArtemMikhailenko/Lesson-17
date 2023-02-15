@@ -1,0 +1,11 @@
+console.log('You can ignore single and double quotes like this:\\\'\\\' \\" \\"')
+
+alert('Please enter your data')
+let userName = prompt("Enter your name", 'Name')
+alert(`Your first name:${userName}`)
+let userSurname = prompt("Enter your surname",'Surname')
+alert (`Your full name: ${userName} ${userSurname}`)
+let age = prompt("How old are you",'Age')
+alert (`Your full name is: ${userName} ${userSurname}, your age is: ${age}`)
+alert('Are you admin ?')
+alert (`Your full name is ${userName} ${userSurname}, your age is ${age}, admin status: true`)
